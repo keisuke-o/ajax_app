@@ -1,10 +1,3 @@
-require("@rails/ujs").start()
-require("turbolinks").start()
-require("@rails/activestorage").start()
-require("channels")
-require("../checked")
-require("../memo")
-
 function check() {
   // 表示されているすべてのメモを取得している
   const posts = document.querySelectorAll(".post");
@@ -47,4 +40,3 @@ function check() {
   });
 }
 setInterval(check, 1000);
-変更をコミットしてプッシ
